@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script src="index.js"></script>    <!--Linking a JavaScript file-->>
+    </head>
+    <body>
+
+        <p>Hello World!</p>
+
+        <h1>Heading 1</h1>
+        <h3>Heading 3</h3>
+        <h6>Heading 6</h6>
+
+        <!--This is a comment. Below is some HTML testing out different styling elements.-->
+        <p>Regular text <b>bolded</b> <i>italicized</i> <sup>superscript</sup> more regular text.</p>
+
+        <a href="https://google.com">Take me to Google!</a> <br> <!--Absolute Path-->
+        <a href="page2.html">Page 2</a> <br> <!--Relative Path (Local)-->
+        <a href="pages/page3.html">Page 3</a> <br> <!--Relative Path to another folder (Local)-->
+
+        <img src="marvel.jpg" /> <br> <!--Relative Path (Local)-->
+        <img src="https://cdn.britannica.com/49/182849-050-4C7FE34F/scene-Iron-Man.jpg" /> <!--Absolute Path-->
+
+        <!--Ordered List-->
+        <ol>
+            <li>Sally</li>
+            <li>Tommy</li>
+            <li>Sam</li>
+        </ol>
+
+        <!--Unordered List (like grocery list)-->
+        <ul>
+            <li>Apple</li>
+            <li>Bread</li>
+            <li>Eggs</li>
+        </ul>
+
+        <!--Table-->
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Apple</td>
+                <td>.35</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Bread</td>
+                <td>2.35</td>
+                <td>12</td>
+            </tr>
+        </table>
+
+        <!--Div (for grouping) and Span (to target a specific text for css)-->
+        <div>
+            <h1>Div 1</h1>
+            <p>Div 1 paragraph</p>
+        </div>
+
+        <div>
+            <h1>Div 2</h1>
+            <p>Div 2 paragraph</p>
+        </div>
+
+        <p>This is some text, <span>here is text inside a span</span>, and here is some text.</p>
+
+        <!--Forms-->
+        <form>
+            <input type="text" name="firstName" placeholder="First Name"> <br>
+            <input type="text" name="lastName" placeholder="Last Name"> <br>
+            Ice Cream Preference: <br>
+            <input type="radio" name="ice-cream" value="Chocolate"> Chocolate <br>
+            <input type="radio" name="ice-cream" value="Vanilla"> Vanilla <br>
+            <input type="radio" name="ice-cream" value="Swirl"> Swirl <br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <button>Click Me!</button> <!--Not doing anything, unless you put JavaScript on it-->
+
+    </body>
+</html>
